@@ -23,7 +23,7 @@ import healthcheckRouter from './routes/healthcheck.routes.js'
 import userRouter from './routes/user.routes.js'
 import { errorHandler } from './middlewares/error.middlewares.js';
 
-//routes
+//routes  
 app.use("/api/v1/healthcheck",healthcheckRouter)
 app.use("/api/v1/users",userRouter)
 
